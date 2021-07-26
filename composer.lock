@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "088834dfc8e840acbf31ce7cd60afc5e",
+    "packages": [
+        {
+            "name": "marcelog/pami",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelog/PAMI.git",
+                "reference": "f586d0fcbf7db7952965ccb91e4ed231bd168fb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelog/PAMI/zipball/f586d0fcbf7db7952965ccb91e4ed231bd168fb3",
+                "reference": "f586d0fcbf7db7952965ccb91e4ed231bd168fb3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "psr/log": ">= 1.0.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "evert/phpdoc-md": "~0.1.1",
+                "marcelog/pagi": "2.*",
+                "monolog/monolog": "1.*",
+                "phing/phing": "2.*",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": "4.*",
+                "satooshi/php-coveralls": "1.0.1",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PAMI\\": "src/PAMI"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Marcelo Gornstein",
+                    "email": "marcelog@gmail.com",
+                    "homepage": "http://marcelog.github.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Asterisk Manager Interface (AMI) client for PHP, event driven, object oriented",
+            "homepage": "http://marcelog.github.com/PAMI",
+            "keywords": [
+                "action",
+                "ami",
+                "asterisk",
+                "client",
+                "event",
+                "manager",
+                "monitor",
+                "telephony",
+                "voip"
+            ],
+            "support": {
+                "issues": "https://github.com/marcelog/PAMI/issues",
+                "source": "https://github.com/marcelog/PAMI/tree/v2.0.2"
+            },
+            "time": "2017-10-10T18:59:17+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
